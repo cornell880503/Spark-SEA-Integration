@@ -27,7 +27,7 @@ To pressure-test these hypotheses, I built a multi-partner orchestration probe u
 
 Four things, in priority order:
 
-1. **Partner API standardization.** Grab, AirAsia, and their peers do not expose MCP-compatible schemas today. Google's Partner Innovation team would need to negotiate schema standards — or invest in adapter layers — before Spark can call these tools reliably at scale. This is the highest-friction item and the one that requires the most internal cross-functional alignment.
+1. **Partner API standardization.** Grab, AirAsia, and their peers do not expose MCP-compatible schemas today. Google would need to negotiate schema standards — or invest in adapter layers — before Spark can call these tools reliably at scale. This is the highest-friction item and the one that requires the most internal cross-functional alignment.
 
 2. **Cross-border legal and payments compliance.** Any agentic flow that crosses a national border and touches a financial transaction (FX conversion, Grab pre-booking) triggers at minimum two jurisdictions' data residency and payments regulations. A Singapore-booked, Malaysia-executed Grab ride is already a cross-border data flow under PDPA and PDPD frameworks. Compliance review needs to start before the API contracts close, not after.
 
@@ -37,7 +37,7 @@ Four things, in priority order:
 
 ---
 
-These are the questions the Partner Innovation team will spend the next six months answering. This prototype is a first pass at what the answer looks like in practice — built to make the conversation concrete rather than abstract.
+These are the questions any team taking Spark to SEA partners would need to answer first. This prototype is a first pass at what the answer looks like in practice — built to make the conversation concrete rather than abstract.
 
 ---
 

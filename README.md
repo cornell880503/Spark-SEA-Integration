@@ -62,8 +62,4 @@ When total cost exceeds the user's budget, the agent calls `request_user_decisio
 - Gemini 3.5 Flash function-calling (Google AI Studio API)
 - Google Places API v1 (New) for live restaurant data
 - Vanilla HTML/CSS/JS — single file, zero dependencies
-- Vibe-coded with Claude Code (Anthropic) — matching the JD preferred qualification of "experience with mainstream agentic tools"
-
----
-
-*Product Manager, Google Partner Innovation, Singapore application · May 2026*
+- Vibe-coded with Claude Code (Anthropic)
